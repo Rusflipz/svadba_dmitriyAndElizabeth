@@ -1,0 +1,38 @@
+.welcome-block {
+  padding-top: 30px;
+  position: relative;
+}
+
+.welcome-block__description {
+  margin: 0 auto;
+  max-width: 90%;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: 'Good Vibes Pro', serif;
+}
+
+.welcome-block__text {
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-family: 'DIN Pro', serif;
+}
+
+@media screen and (min-width: 800px) {
+  .welcome-block__description {
+    font-size: 80px;
+  }
+
+  .welcome-block__text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 35px;
+    max-width: 1000px;
+  }
+
+  .welcome-block__map-container {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+}

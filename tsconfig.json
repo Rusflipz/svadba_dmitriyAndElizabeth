@@ -1,0 +1,47 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "target": "es2017",
+        "strict": false,
+        "paths": {
+            "@interfaces/*": ["./__interfaces__/*"],
+            "@components/*": ["./src/components/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@form-fields/*": ["./src/form-fields/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@ui/*": ["./src/ui/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@selectors/*": ["./src/store/selectors/*"],
+            "@test-utils/*": ["./src/test-utils/*"],
+            "@actions/*": ["./src/store/actions/*"],
+            "@reducers/*": ["./src/store/reducers/*"],
+            "@src/*": ["./src/*"]
+        },
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "allowJs": true
+    },
+    "include": [
+        "__interfaces__",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "custom.d.ts"
+    ],
+    "exclude": ["./node_modules/*"]
+}

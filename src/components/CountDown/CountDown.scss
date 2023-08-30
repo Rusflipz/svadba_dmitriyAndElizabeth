@@ -1,0 +1,62 @@
+.countdown-block {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url('../../images/secondPhoto.jpeg');
+  height: 100vh;
+  color: white;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.countdown-block__time-row {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.countdown-block__time-line {
+  width: 1px;
+  background-color: black;
+  height: 100%;
+}
+
+.countdown-block__time-count {
+  font-size: 35px;
+  font-family: 'Good Vibes Pro', serif;
+}
+
+.countdown-block__time-text {
+  font-size: 20px;
+  font-family: 'DIN Pro', serif;
+}
+
+.countdown-block__time-column {
+  width: 25%;
+}
+
+.countdown-block__container {
+  width: 310px;
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+  left: calc(50% - 155px);
+}
+
+.countdown-block__main-text {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: 'Good Vibes Pro', serif;
+}
+
+.countdown-block__text {
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-family: 'DIN Pro', serif;
+}
+

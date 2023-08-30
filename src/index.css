@@ -1,0 +1,51 @@
+@import "fonts/GoodVibesPro/GoodVibesPro.css";
+@import "fonts/AlexandraScript/AlexandraScript.css";
+@import "fonts/Caravan/Caravan.css";
+@import "fonts/StudioScript/StudioScript.css";
+@import "fonts/AdineKirnberg/AdineKirnberg.css";
+@import "fonts/ClassicaOne/ClassicaOne.css";
+@import "fonts/DINPro/DINPro.css";
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FFFAF0;
+    scrollbar-face-color: #61dafb;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*div {*/
+/*    border: 1px red solid;*/
+/*}*/
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* ширина scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+    /* цвет дорожки */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFE4B5;
+    /* цвет плашки */
+    border-radius: 20px;
+    /*закругления плашки */
+    border: 3px solid #FFE4B5;
+    /*padding вокруг плашки */
+}
