@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/svadba_dmitriyAndElizabeth/static/css/main.4ac06289.css",
-    "main.js": "/svadba_dmitriyAndElizabeth/static/js/main.7e8aa40c.js",
+    "main.js": "/svadba_dmitriyAndElizabeth/static/js/main.02cc9691.js",
     "static/media/GoodVibesPro.eot": "/svadba_dmitriyAndElizabeth/static/media/GoodVibesPro.70f5f55ab7dce61122a1.eot",
     "static/media/GoodVibesPro.ttf": "/svadba_dmitriyAndElizabeth/static/media/GoodVibesPro.ef3b572c2b9c9c3d1157.ttf",
     "static/media/zags.jpg": "/svadba_dmitriyAndElizabeth/static/media/zags.40158ffefb6682581091.jpg",
@@ -89,10 +89,10 @@
     "static/media/rings1.jpg": "/svadba_dmitriyAndElizabeth/static/media/rings1.4a398546fc531d5d061c.jpg",
     "index.html": "/svadba_dmitriyAndElizabeth/index.html",
     "main.4ac06289.css.map": "/svadba_dmitriyAndElizabeth/static/css/main.4ac06289.css.map",
-    "main.7e8aa40c.js.map": "/svadba_dmitriyAndElizabeth/static/js/main.7e8aa40c.js.map"
+    "main.02cc9691.js.map": "/svadba_dmitriyAndElizabeth/static/js/main.02cc9691.js.map"
   },
   "entrypoints": [
     "static/css/main.4ac06289.css",
-    "static/js/main.7e8aa40c.js"
+    "static/js/main.02cc9691.js"
   ]
 }
